@@ -1,0 +1,87 @@
+.ticketContainer {
+    background-color: #EAF4FB;
+    padding: 80px 0;
+}
+
+.ticketGroup {
+    text-align: center;
+}
+
+.ticketGroup p {
+    color: var(--pri-clr);
+    margin-top: 10px;
+}
+
+.ticketGroup h2 {
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 40px;
+   color: var(--pri-clr);
+}
+
+.ticketGroup h2::before {
+    content: 'Choose Ticket';
+    display: block;
+    font-size: 0.8rem;
+    color: var(--sec-clr);
+    margin-bottom: 10px;
+}
+
+.ticketItem {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.ticketTag {
+    background-color: #FEE7EF;
+    font-weight: 700;
+    color: #FF2173;
+    font-size: 0.8rem;
+    padding: 8px 16px;
+    border-radius: 18px;
+    margin-bottom: 40px;
+}
+
+.ticketTag {
+    background-color: #FEE7EF;
+    font-weight: 700;
+    color: #FF2173;
+    font-size: 0.8rem;
+    padding: 8px 16px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.ticketPrice {
+    font-weight: 700;
+    color: var(--sec-clr);
+    font-size: 3rem;
+}
+
+.ticketMember {
+    font-size: 0.8rem;
+    color: var(--pri-clr);
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.ticketButton {
+    margin-top: 20px;
+    background-color: var(--sec-clr);
+    border: none;
+    color: #fff;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+}

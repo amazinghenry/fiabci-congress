@@ -1,0 +1,58 @@
+.aboutContainer {
+    padding: 80px 0;
+}
+
+.aboutGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboutItem h2 {
+    color: var(--pri-clr);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.aboutItem h2::before {
+    content: 'About Congress ';
+    display: block;
+    font-size: 0.8rem;
+    color: var(--sec-clr);
+    margin-bottom: 10px;
+}
+
+
+.aboutItem p {
+    color: #4d4d4d;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+.aboutButton {
+    margin-top: 20px;
+    background-color: var(--sec-clr);
+    border: none;
+    color: #fff;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.aboutButton:hover {
+    background-color: #218143;
+}
+
+
+@media screen and (max-width: 768px) {
+    .aboutGroup {
+        grid-template-columns: 1fr;
+    }
+    
+}
