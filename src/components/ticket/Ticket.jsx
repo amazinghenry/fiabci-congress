@@ -8,7 +8,7 @@ const Ticket = () => {
       <div className="ticketGroup">
         <h2>GET YOUR TICKET</h2>
         <div className="ticketItem">
-          <div className="ticketTag">EarlyBird</div>
+          <div className="ticketTag">Early Bird</div>
           <h3 className="ticketPrice">€1500</h3>
           <h4 className="ticketMember">FIABCI MEMBERS</h4>
           <a href="#" className="ticketButton">

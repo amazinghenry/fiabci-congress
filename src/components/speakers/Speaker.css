@@ -42,6 +42,9 @@
 .speakerGroup {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .speakerItem {
@@ -57,7 +60,7 @@
 .speakerName {
     color: #90FFB7;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -70,4 +73,8 @@
 .speakerCompany {
     color: #fff;
     font-size: 0.8rem;
+}
+
+.speakerImage {
+    margin-bottom: 20px;
 }

@@ -3,7 +3,8 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Ticket from "./components/ticket/Ticket";
 import SpeakerList from "./components/speakers/SpeakerList";
-import Schedule from "./components/schedule/Schedule";
+// import Schedule from "./components/schedule/Schedule";
+import Sponsors from "./components/sponsors/Sponsors";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
       <div>
         <SpeakerList />
       </div>
+      <div>{/* <Schedule /> */}</div>
       <div>
-        <Schedule />
+        <Sponsors />
       </div>
       <div>
         <Footer />

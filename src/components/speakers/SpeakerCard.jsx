@@ -34,9 +34,9 @@ const SpeakerCard = ({ speakers }) => {
           filteredSpeakers.map((speaker, index) => (
             <div className="speakerItem" key={index}>
               <img
-                src={speaker.image || "https://placehold.co/180"}
+                src={`./speakers/${speaker.image}`}
                 alt={speaker.name || "Speaker"}
-                className="img-fluid"
+                className="img-fluid speakerImage"
               />
               <h3 className="speakerName">{speaker.name}</h3>
               <h4 className="speakerPosition">{speaker.position}</h4>

@@ -1,7 +1,7 @@
 const speakers = [
     {
         name: "His Excellency, Mr. Babjide Sanwo-Olu",
-        position: "Governor,",
+        position: "Executive Governor,",
         company: "Lagos State",
         category: "special",
         image: "babajide-sanwoolu.webp",
@@ -25,7 +25,7 @@ const speakers = [
         position: "CEO,",
         company: "Dangote Group",
         category: "special",
-        image: "moruf-akinderu.webp",
+        image: "aliko-dangote.webp",
 
     },
     {
@@ -70,13 +70,6 @@ const speakers = [
         category: "regular",
         image: "adeniji-adele.webp",
 
-    },
-    {
-        name: "Adeniji Adele",
-        position: "President,",
-        company: "Fiabci-Africa and Near East",
-        category: "regular",
-        image: "adeniji-adele.webp",
     },
     {
         name: "Luca Bigliardi",

@@ -17,22 +17,22 @@ const Navbar = () => {
         </li>
         <li className="linkItem">
           <a href="#" className="link">
-            Ticket
+            Agenda
           </a>
         </li>
         <li className="linkItem">
           <a href="#" className="link">
-            Speaker
+            Speakers
           </a>
         </li>
         <li className="linkItem">
           <a href="#" className="link">
-            Schedule
+            Sponsors
           </a>
         </li>
       </ul>
       <a href="#" className="navbarRegisterButton">
-        Register
+        Get Ticket
       </a>
     </nav>
   );
