@@ -11,27 +11,27 @@ const Navbar = () => {
       </div>
       <ul className="linkGroup">
         <li className="linkItem">
-          <a href="#" className="link">
+          <a href="#about" className="link">
             About Us
           </a>
         </li>
         <li className="linkItem">
-          <a href="#" className="link">
+          <a href="#agenda" className="link">
             Agenda
           </a>
         </li>
         <li className="linkItem">
-          <a href="#" className="link">
+          <a href="#speakers" className="link">
             Speakers
           </a>
         </li>
         <li className="linkItem">
-          <a href="#" className="link">
+          <a href="#sponsors" className="link">
             Sponsors
           </a>
         </li>
       </ul>
-      <a href="#" className="navbarRegisterButton">
+      <a href="#ticket" className="navbarRegisterButton">
         Get Ticket
       </a>
     </nav>

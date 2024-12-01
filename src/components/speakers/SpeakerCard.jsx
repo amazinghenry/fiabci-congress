@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import "./Speaker.css";
 
 const SpeakerCard = ({ speakers }) => {
+  const [ref, inView] = useInView({ triggerOnce: true });
   const [filter, setFilter] = useState("all");
 
   // Mapping filter keys to display labels
@@ -29,7 +32,13 @@ const SpeakerCard = ({ speakers }) => {
         ))}
       </div>
 
-      <div className="speakerGroup">
+      <motion.div
+        className="speakerGroup"
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 3 }}
+      >
         {filteredSpeakers.length > 0 ? (
           filteredSpeakers.map((speaker, index) => (
             <div className="speakerItem" key={index}>
@@ -46,7 +55,7 @@ const SpeakerCard = ({ speakers }) => {
         ) : (
           <p>No speakers found for the selected category.</p>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };

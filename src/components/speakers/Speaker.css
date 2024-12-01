@@ -1,4 +1,8 @@
 .speakerListContainer {
+    background-image: url('../../assets/pattern1.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: var(--pri-clr);
     padding: 80px 0;
 }
@@ -77,4 +81,8 @@
 
 .speakerImage {
     margin-bottom: 20px;
+}
+
+.speakersFilterButtons button:hover {
+    background-color: #218143;
 }

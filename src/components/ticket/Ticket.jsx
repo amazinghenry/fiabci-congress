@@ -4,7 +4,7 @@ import React from "react";
 
 const Ticket = () => {
   return (
-    <div className="ticketContainer">
+    <div className="ticketContainer" id="ticket">
       <div className="ticketGroup">
         <h2>GET YOUR TICKET</h2>
         <div className="ticketItem">

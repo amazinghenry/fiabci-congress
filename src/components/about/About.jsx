@@ -3,7 +3,7 @@ import aboutImage from "../../assets/aboutImage.webp";
 
 const About = () => {
   return (
-    <div className="aboutContainer">
+    <div className="aboutContainer" id="about">
       <div className="aboutGroup container">
         <img src={aboutImage} alt="A previous event" className="img-fluid" />
         <div className="aboutItem">

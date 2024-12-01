@@ -1,6 +1,5 @@
 import "./Header.css";
-
-import React from "react";
+import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -8,7 +7,12 @@ const Header = () => {
     <header>
       <div className="container">
         <Navbar />
-        <div className="headerItem">
+        <motion.div
+          className="headerItem"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2 }}
+        >
           <h1>75th FIABCI WORLD</h1>
           <h1>REAL ESTATE CONGRESS 2025</h1>
           <h2>
@@ -26,7 +30,7 @@ const Header = () => {
               Eko Hotel and Suites, Victoria Island, Lagos
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </header>
   );

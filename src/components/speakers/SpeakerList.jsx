@@ -4,7 +4,7 @@ import speakers from "../../data/speakerData";
 
 const SpeakerList = () => {
   return (
-    <div className="speakerListContainer">
+    <div className="speakerListContainer" id="speakers">
       <div>
         <SpeakerCard speakers={speakers} />
       </div>
