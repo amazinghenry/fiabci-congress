@@ -1,0 +1,25 @@
+.event-update-container {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.event-update-container h1 {
+    color: var(--pri-clr);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.event-update-container p {
+    margin-bottom: 20px;
+}
+/* 
+.event-update-return {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: var(--pri-clr);
+    color: #fff;
+    padding: 12px;
+    border-radius: 4px;
+} */

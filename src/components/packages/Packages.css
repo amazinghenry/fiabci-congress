@@ -1,15 +1,14 @@
-.ticketContainer {
+.packageContainer {
     background-color: #EAF4FB;
     padding: 80px 0;
 }
 
-.ticketGroup {
-    text-align: center;
+.packageGroup {
     display: flex;
     gap: 10px;
 }
 
-.ticketItem {
+.packageItem {
     background-color: #fff;
     flex: 1;
     padding: 15px 40px;
@@ -26,19 +25,19 @@
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
 
-.ticketGroup p {
+.packageGroup p {
     color: var(--pri-clr);
     margin-top: 10px;
 }
 
-.ticketContainer h2 {
+.packageContainer h2 {
    font-weight: 700;
    text-align: center;
    margin-bottom: 40px;
    color: var(--pri-clr);
 }
 
-.ticketGroup h2::before {
+.packageGroup h2::before {
     content: 'Choose Ticket';
     display: block;
     font-size: 0.8rem;
@@ -46,12 +45,12 @@
     margin-bottom: 10px;
 }
 
-.ticketItem:hover {
+.packageItem:hover {
     border: none;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.ticketMember {
+.packageTitle {
     font-size: 0.8rem;
     color: var(--pri-clr);
     margin-top: 0;
@@ -59,35 +58,7 @@
     margin-bottom: 10px;
 }
 
-.ticketTagEarly {
-    font-weight: 700;
-    color: #FF2173;
-    font-size: 0.8rem;
-    border-radius: 18px;
-}
-
-.ticketPriceEarly {
-    font-weight: 500;
-    color: var(--sec-clr);
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.ticketTagOriginal {
-    font-weight: 700;
-    color: #006dc6;
-    font-size: 0.8rem;
-    border-radius: 18px;
-}
-
-.ticketPriceOriginal {
-    font-weight: 500;
-    color: #4ba4ec;
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.ticketButton {
+.packageButton {
     margin-top: auto;
     background-color: var(--sec-clr);
     border: none;
@@ -100,15 +71,35 @@
     width: 100%;
 }
 
-.ticketButton:hover {
+.packagePrice {
+    color: #218143;
+    font-weight: 800;
+    padding-bottom: 8px;
+}
+
+.packageListGroup {
+    list-style-type: none;
+    border-top: 1px solid #787878;
+}
+
+.packageListGroup li {
+   margin: 15px 0;
+   text-align: center;
+}
+
+.exhibitPackage {
+    margin-top: 30px;
+}
+
+.packageButton:hover {
     background-color: #218143;
 }
 
 @media screen and (max-width: 768px) {
-    .ticketGroup {
+    .packageGroup {
         flex-direction: column;
     }
-    .ticketItem {
+    .packageItem {
         width: 100%;
     }
 }

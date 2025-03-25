@@ -1,5 +1,9 @@
 const sponsors = [
     {
+        name: "FIABCI-Nigeria",
+        image: "fiabci-logo.webp",
+    },
+    {
         name: "LSDPC",
         image: "lsdpc-logo.webp",
     },

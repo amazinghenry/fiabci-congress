@@ -30,8 +30,13 @@ const Navbar = () => {
             Sponsors
           </a>
         </li>
+        <li className="linkItem">
+          <a href="/event-update" className="link">
+            Event Update
+          </a>
+        </li>
       </ul>
-      <a href="#ticket" className="navbarRegisterButton">
+      <a href="#packages" className="navbarRegisterButton">
         Get Ticket
       </a>
     </nav>

@@ -25,6 +25,12 @@ const Footer = () => {
           </a>
         </div>
       </div>
+
+      <div className="footerContact container">
+        For more info Call: 0803-5899-439 , 0912-5153-840 or email:
+        info@fiabcinigeria.com{" "}
+      </div>
+
       <hr />
       <p className="copyright">
         © {thisYear.getFullYear()}, All rights reserved

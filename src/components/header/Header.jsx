@@ -19,7 +19,7 @@ const Header = () => {
             Theme: <span>GLOBAL REAL ESTATE RENAISSANCE</span>
           </h2>
           <div className="headerDate">
-            June 2nd - 6th, 2025 \\ 10:00 - 16:00
+            June 9th - 13th, 2025 \\ 10:00 - 16:00
           </div>
           <div className="headerVenue">
             <a

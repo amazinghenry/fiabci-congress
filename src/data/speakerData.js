@@ -20,14 +20,14 @@ const speakers = [
         category: "special",
         image: "moruf-akinderu.webp",
     },
-    {
-        name: "Aliko Dangote",
-        position: "CEO,",
-        company: "Dangote Group",
-        category: "special",
-        image: "aliko-dangote.webp",
+    // {
+    //     name: "Aliko Dangote",
+    //     position: "CEO,",
+    //     company: "Dangote Group",
+    //     category: "special",
+    //     image: "aliko-dangote.webp",
 
-    },
+    // },
     {
         name: "Ramon Riera Torroba",
         position: "World President,",
@@ -35,13 +35,13 @@ const speakers = [
         category: "special",
         image: "ramon-riera.webp",
     },
-    {
-        name: "Dr. Akinwunmi Adesina",
-        position: "President,",
-        company: "African Development Bank",
-        category: "special",
-        image: "akinwunmi-adesina.webp",
-    },
+    // {
+    //     name: "Dr. Akinwunmi Adesina",
+    //     position: "President,",
+    //     company: "African Development Bank",
+    //     category: "special",
+    //     image: "akinwunmi-adesina.webp",
+    // },
     {
         name: "Morgan Maxwell",
         position: "CEO,",
@@ -49,13 +49,13 @@ const speakers = [
         category: "keynote",
         image: "morgan-maxwell.webp",
     },
-    {
-        name: "Ngozi Okonjo-Iweala",
-        position: "Director General,",
-        company: "World Trade company",
-        category: "regular",
-        image: "ngozi-okonjo.webp",
-    },
+    // {
+    //     name: "Ngozi Okonjo-Iweala",
+    //     position: "Director General,",
+    //     company: "World Trade company",
+    //     category: "regular",
+    //     image: "ngozi-okonjo.webp",
+    // },
     {
         name: "Akin Opatola",
         position: "Chapter President,",

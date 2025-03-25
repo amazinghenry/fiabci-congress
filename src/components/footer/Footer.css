@@ -27,6 +27,12 @@ footer {
     text-align: center;
 }
 
+.footerContact {
+    color: turquoise;
+    margin: 40px auto;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .footerContainer {
         flex-direction: column;
