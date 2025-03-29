@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export PATH=/opt/cpanel/ea-nodejs18/bin:$PATH
+    - echo "Installing dependencies..."
+    - npm install
+    - echo "Building Vite app..."
+    - npm run build
+    - echo "Deploying files..."
+    - rm -rf public_html/*
+    - cp -r dist/* public_html/
+    - echo "Deployment complete."
