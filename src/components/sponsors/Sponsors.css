@@ -1,18 +1,27 @@
 .sponsorContainer {
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 
-.sponsorContainer h2, .media-partner {
+.sponsorContainer h2, .mediapartnerContainer h2 {
     margin-bottom: 40px;
     text-align: center;
     color: var(--pri-clr);
     font-weight: 700;
 }
 
+.media-partner-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-.media-partner-logo {
-    margin: 0 auto;
+.mediapartner-logos {
     margin-bottom: 80px;
+}
+
+.mediapartner-logos img {
+    margin: 0 auto;
 }
 
 .react-multi-carousel-item   {

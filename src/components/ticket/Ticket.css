@@ -59,39 +59,11 @@
     margin-bottom: 10px;
 }
 
-.ticketTagEarly {
-    font-weight: 700;
-    color: #FF2173;
-    font-size: 0.8rem;
-    border-radius: 18px;
-}
-
-.ticketPriceEarly {
-    font-weight: 500;
-    color: var(--sec-clr);
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.ticketTagOriginal {
-    font-weight: 700;
-    color: #006dc6;
-    font-size: 0.8rem;
-    border-radius: 18px;
-}
-
-.ticketPriceOriginal {
-    font-weight: 500;
-    color: #4ba4ec;
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
 .ticketButton {
     margin-top: auto;
     background-color: var(--sec-clr);
     border: none;
-    color: #fff;
+    color: var(--pri-clr);
     padding: 8px 20px;
     text-align: center;
     text-decoration: none;
@@ -101,7 +73,7 @@
 }
 
 .ticketButton:hover {
-    background-color: #218143;
+    background-color: var(--pri-clr);
 }
 
 @media screen and (max-width: 768px) {

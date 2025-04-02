@@ -32,7 +32,7 @@
 .speakersFilterButtons button {
     background-color: var(--sec-clr);
     border: none;
-    color: white;
+    color: var(--pri-clr);
     padding: 8px;
     text-align: center;
     text-decoration: none;
@@ -62,7 +62,7 @@
 }
 
 .speakerName {
-    color: #90FFB7;
+    color: var(--sec-clr);
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 10px;

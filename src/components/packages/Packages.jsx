@@ -24,7 +24,7 @@ const Packages = () => {
             href="https://paystack.com/pay/FIACBIWORLDCONGRESS2025"
             className="packageButton"
           >
-            Get Ticket
+            Get Ticket / Exhibit
           </a>
         </div>
         <div className="packageItem">

@@ -1,5 +1,5 @@
 .aboutContainer {
-    padding: 80px 0;
+    padding: 80px 20px;
     background-image: url('../../assets/pattern2.webp');
     background-position: center;
     background-size: cover;
@@ -7,16 +7,15 @@
 }
 
 .aboutGroup {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 10px;
 }
 
-.aboutGroup img {
-   
-}
+
 
 .aboutItem h2 {
     color: var(--pri-clr);
@@ -43,7 +42,7 @@
     margin-top: 20px;
     background-color: var(--sec-clr);
     border: none;
-    color: #fff;
+    color: var(--pri-clr);
     padding: 17px 27px;
     text-align: center;
     text-decoration: none;
@@ -59,9 +58,26 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .aboutGroup {
         grid-template-columns: 1fr;
     }
+    .aboutGroup img {
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 20px;
+    }
     
+    .aboutItem h2 {
+        text-align: center;
+    }
+    .aboutItem p {
+        text-align: center;
+    }
+    .aboutButton {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 300px;
+    }
 }

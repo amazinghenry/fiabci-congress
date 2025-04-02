@@ -1,5 +1,5 @@
 import "./Footer.css";
-import fiabciLogo from "../../assets/faibciLogo.webp";
+import fiabciLogo from "../../assets/fiabcilogo.png";
 
 const thisYear = new Date();
 
@@ -14,14 +14,17 @@ const Footer = () => {
           <a href="#" className="footerLink">
             About
           </a>
-          <a href="#" className="footerLink">
-            Agenda
+          <a href="/registration-form" className="footerLink">
+            Register
           </a>
           <a href="#" className="footerLink">
             Speakers
           </a>
           <a href="#" className="footerLink">
             Sponsors
+          </a>
+          <a href="event-update" className="footerLink">
+            Event Update
           </a>
         </div>
       </div>

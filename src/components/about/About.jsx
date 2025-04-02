@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="aboutContainer" id="about">
       <div className="aboutGroup container">
-        <img src={aboutImage} alt="A previous event" className="img-fluid" />
+        {/* <img src={aboutImage} alt="A previous event" className="img-fluid" /> */}
         <div className="aboutItem">
           <h2>WELCOME TO FIABCI WORLD REAL ESTATE CONGRESS 2025 </h2>
           <p>

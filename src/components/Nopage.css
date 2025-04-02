@@ -1,14 +1,15 @@
-.event-update-container {
+.nopage-container {
     padding: 60px 20px;
     text-align: center;
+    height: 100vh;
 }
 
-.event-update-container h1 {
+.nopage-container h1 {
     color: var(--pri-clr);
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.event-update-container p {
+.nopage-container p {
     margin-bottom: 20px;
 }
